@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#tally {
+    font-size: 50px;
+    margin: 30px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+#add #minus {
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+
+button {
+    background-color: darkgray;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    border: 20px;
+    border-radius: 10%;
+    justify-content: center;
+    align-content: center;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+#add:hover {
+    background-color: white;
+    color: darkgray;
+}
+
+#minus:hover {
+    background-color: white;
+    color: darkgray;
+}
+
+#input {
+    width: 80px;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    border-color: darkgray;
+    border-radius: 10%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
