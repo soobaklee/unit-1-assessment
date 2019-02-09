@@ -14,6 +14,7 @@ function incTotal() {
     newTotal = (+beg + +inputVal.value);
     beg = newTotal;
     total.innerHTML = beg;
+    color();
     return;
 }
 
@@ -21,6 +22,13 @@ function decTotal() {
     newTotal = (+beg - +inputVal.value);
     beg = newTotal;
     total.innerHTML = beg;
+    color();
     return;
 }
 
+function color() {
+    if (newTotal<0) {
+    total.style.color = "red";
+} else  {
+    total.style.color = "black";
+}}
